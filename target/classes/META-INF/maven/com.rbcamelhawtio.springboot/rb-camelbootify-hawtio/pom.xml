@@ -49,6 +49,25 @@
 			<artifactId>camel-quartz2</artifactId>
 			<version>${camel.version}</version>
 		</dependency>
+		
+				<dependency>
+		<groupId>org.apache.camel</groupId>
+		<artifactId>camel-restlet</artifactId>
+		<version>${camel.version}</version>
+		</dependency>
+		
+		<dependency>
+		<groupId>org.restlet.jee</groupId>
+		<artifactId>org.restlet.ext.spring</artifactId>
+		<version>2.3.7</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-spring-javaconfig</artifactId>
+			<version>${camel.version}</version>
+		</dependency>
+		
 	</dependencies>
 	<build>
 		<plugins>
@@ -60,4 +79,24 @@
 	</build>
 	<groupId>com.rbcamelhawtio.springboot</groupId>
 	<artifactId>rb-camelbootify-hawtio</artifactId>
+	
+		<repositories>
+	
+			<repository>
+			<id>maven-restlet</id>
+			<name>Public online Restlet repository</name>
+			<url>http://maven.restlet.com</url>
+		</repository>
+		
+		<repository>
+			<id>apache-public</id>
+			<url>https://repository.apache.org/content/groups/public/</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+		</repository>
+	</repositories>
 </project>
