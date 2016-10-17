@@ -10,3 +10,4 @@ http://www.quartz-scheduler.org/documentation/quartz-2.x/tutorials/crontrigger
 http://camel.apache.org/quartz2.html
 https://access.redhat.com/documentation/en-US/Red_Hat_JBoss_Fuse/6.0/html/Implementing_Enterprise_Integration_Patterns/files/BasicPrinciples-ScheduledRoute-Cron.html
 http://stackoverflow.com/questions/29981142/camel-http4-download-file-using-basic-authentication-over-https
+http://sdqali.in/blog/2015/12/16/authentication-for-apache-camel-http-components/
